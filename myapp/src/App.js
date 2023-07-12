@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './Components/table';
+import Table1 from './Components/table';
+import { useEffect, useState } from 'react';
 
 function App() {
 
 
-  let arr=[{
-    name:'',
-    weight:'',
-    skills:'',
-    education:'',
-    
-  }]
+ 
+
+
+
+ 
+
 
   return (
      <div>
-      <Table data={arr}/>
+      <Table1/>
     </div>
   );
 }
